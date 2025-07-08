@@ -1,5 +1,12 @@
 # GA4 Ecommerce Tracking for Single-Page Applications (SPA)
 
+[![Built with GA4](https://img.shields.io/badge/Built%20With-GA4-blue)](#)
+[![Powered by GTM](https://img.shields.io/badge/Powered%20by-Google%20Tag%20Manager-lightgrey)](#)
+[![SPA Support](https://img.shields.io/badge/SPA%20Compatibility-Yes-green)](#)
+[![Status](https://img.shields.io/badge/Status-Case%20Study-orange)](#)
+
+![GA4 Tracking Banner](images/ga4_project_banner.png)
+
 👋 Hi! I'm Megan Simmons — a business intelligence and marketing analytics professional with over a decade of experience designing full-funnel data solutions across web, CRM, and marketing ecosystems.
 
 This project demonstrates how I implemented GA4 ecommerce tracking on a single-page application (SPA), resolving legacy script conflicts and restoring reliable event tracking through a two-phase approach: a **schema rebuild** and a **GTM-based interim workaround**.
@@ -63,14 +70,15 @@ This temporary patch preserved event integrity during the broken state and ensur
 
 ---
 
-## 🛠 Tools & Technologies
+## 🧰 Tech Stack
 
-- Google Tag Manager (GTM)  
-- Google Analytics 4 (GA4)  
-- Chrome DevTools  
-- Custom JavaScript & Regex  
-- Single-Page Application (SPA) Framework  
-- DataLayer Debugging & GA4 Schema Validation  
+| Tool / Platform     | Purpose                                 |
+|---------------------|------------------------------------------|
+| Google Analytics 4  | Ecommerce tracking & schema alignment    |
+| Google Tag Manager  | Event tagging & conditional triggers     |
+| Chrome DevTools     | Event validation & debugging             |
+| JavaScript & Regex  | Schema transformation & data fixes       |
+| SPA Framework (React/Vue) | Frontend architecture context        |
 
 ---
 
